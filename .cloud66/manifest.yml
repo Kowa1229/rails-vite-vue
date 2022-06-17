@@ -6,7 +6,7 @@ rails:
         without: ["development", "test", "custom"]
     memory_allocator: jemalloc # malloc is default
     node_version: "12"
-    root_disk_size: 50
+    root_disk_size: 20
     root_disk_type: ssd
     activeprotect:
       health_check:
